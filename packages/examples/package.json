@@ -1,0 +1,31 @@
+{
+  "name": "@headless-ui/examples",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Kuba Birecki <kuba.birecki@crystalplanet.io>",
+  "homepage": "https://github.com/ice9js/headless-components#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ice9js/headless-components.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ice9js/headless-components/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0"
+  }
+}
