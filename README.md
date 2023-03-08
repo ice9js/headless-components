@@ -96,7 +96,7 @@ const SelectDropdown = ( { defaultValue, onChange, options } ) => {
 	const [ dropdown, updateDropdown ] = useState( createDropdown( options, defaultValue ) );
 
 	return (
-		<Select dropdown={ dropdown } update{ updateDropdown } onChange={ onChange }>
+		<Select dropdown={ dropdown } update={ updateDropdown } onChange={ onChange }>
 			{ ( {
 				current,
 				dropdownOptions,
